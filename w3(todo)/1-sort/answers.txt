@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: Performs well in sorted cases and worse as the complexity increases in random and reversed.
+
+sort2 uses: Merge sort
+
+How do you know?: Performs well in all cases with a logaritimic pattern comparing the time X increase of problem complexity
+
+sort3 uses: Selection sort
+
+How do you know?: Performs well in less complex cases, and worse as the complexity increases, including sorted ones

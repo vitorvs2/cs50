@@ -1,0 +1,21 @@
++-------------+--------------+-------------------+
+| avg(energy) | avg(valence) | avg(danceability) |
++-------------+--------------+-------------------+
+| 0.65906     | 0.484443     | 0.71646           |
++-------------+--------------+-------------------+
+
+With this information about the averages of the top 100 songs of past year,
+we see a prevalence of danceability over energy over valence, respectively.
+Energy indicates the overall "speed" or "intensity" of a song
+Valence indicates the overall "happiness" of a song
+Danceability is self explanatory
+The profile of a user based on the top 100 songs indicates a blue and purple
+due to a balance of valence, but priorization of high danceability and energy.
+
+This "diagnostic" is not very acurate because the indicators of valence
+appear to be too restrictive into a song, since even songs with apparently
+"low happiness" due to minor tones or things like that can instead be joyful,
+depending of the situation.
+
+One way to make this more precise would implement more parameters into analysing
+not only the keys and variations, but even the lyrics effects on it.
