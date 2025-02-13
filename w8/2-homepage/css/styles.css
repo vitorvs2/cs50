@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: FloralWhite;
+    align-content: center;
+    padding: 2em;
+    font-family: Montserrat;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+header h2 {
+    text-align: center;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+#breadcrumbs {
+    text-align: center;
+    color: DodgerBlue;
+}
+
+.rainbow-text {
+    background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content {
+    max-width: 700px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+
+}
+
+footer a {
+    padding: 1em;
+}
+
+footer div {
+    margin-left: auto;
+    margin-right: auto;
+}
